@@ -2,7 +2,7 @@
 class Game:
     def __init__(self, player1Name, player2Name):
         self.player1Name = player1Name
-        self.player2Name = player2Name
+        self.player2Name = player2Nam
         self.p1points = 0
         self.p2points = 0
         
@@ -10,21 +10,20 @@ class Game:
         if playerName == self.player1Name:
             self.P1Score()
         else:
-            self.P2Score()
-    
-    def score(self):
-        result = ""
-        if (self.p1points == self.p2points and self.p1points < 3):
-            if (self.p1points==0):
-                result = "Love"
-            if (self.p1points==1):
-                result = "Fifteen"
-            if (self.p1points==2):
-                result = "Thirty"
-            result += "-All"
-        if (self.p1points==self.p2points and self.p1points>2):
-            result = "Deuce"
+            self.P2Score() 
         
+        def socre(self) 
+        result = ""
+        get courses() {return this._self.points1 == self.pointsp2();}
+        addCourse(self.points1==0) 
+        result = "Love"
+        addCourses(self.points==1)
+        result = "Fifteen"
+        addCourses(self.poitnts==2)
+        result = "Trirty"
+        result += "All" { ... }
+        
+      
         P1res = ""
         P2res = ""
         if (self.p1points > 0 and self.p2points==0):
