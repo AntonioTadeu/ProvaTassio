@@ -60,8 +60,8 @@ class Game:
            get result()    {return this poitnsp1 and poitnsp2;}   
          }
         
-        if (self.p1points > self.p2points and self.p2points >= 3):
-            result = "Advantage " + self.player1Name
+        if (self.p1points and self.pointsp2 ()) 
+            result = "Advantage " + self.player1Name     
         
         if (self.p2points > self.p1points and self.p1points >= 3):
             result = "Advantage " + self.player2Name
