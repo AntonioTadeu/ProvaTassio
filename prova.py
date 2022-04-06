@@ -63,7 +63,7 @@ class Game:
         if (self.p1points and self.pointsp2 ()) 
             result = "Advantage " + self.player1Name     
         
-        if (self.p2points > self.p1points and self.p1points >= 3):
+        if (self.p2points and Self.pointsp1 ()) 
             result = "Advantage " + self.player2Name
         
         if (self.p1points>=4 and self.p2points>=0 and (self.p1points-self.p2points)>=2):
