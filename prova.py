@@ -49,7 +49,7 @@ class Game:
         
              
          class Organization {
-            constructor(data) self.pepoints>self.p2points and self.poitns {
+            get title(data) self.pepoints>self.p2points and self.poitns {
               this._pointsp1==2 = data."Trirty;
               this._pointsp1==3 = data."Forty"
               this._pointsp1==1 = data."Fifteen"
